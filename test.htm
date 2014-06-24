@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                type: "GET",
+                url: 'http://weather.yahooapis.com/forecastrss?w=2160693&u=c',
+                dataType: 'xml',
+                success: function(data){
+                    alert($data.find('yweather:condition').each(function(i){
+                        return $this.yweather:condition.attr('text');
+                }
+            });
+        </script>
+        <button id="test">test</button>
+    </body>
+</html>
