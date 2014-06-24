@@ -1,15 +1,19 @@
-body{
+.body{
     background-image: url(images/default.jpg);
     background-size: 100%;
 }
 
 #padding{
-    padding-top: 10%;
-}
-
-.container{
-    background-color: rgba(0,0,0,0.4);
+    padding-top: 10px;
 }
 .white{
     color: rgba(255,255,255,1);
+}
+#topbar{
+    background-color: rgba(244,244,244,1);
+    padding-top: 8px;
+    height: 40px;
+    border-bottom-style: solid;
+    border-bottom-color: #e0e0e0;
+    border-bottom-width: 1px;
 }
