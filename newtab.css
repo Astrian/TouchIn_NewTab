@@ -1,0 +1,15 @@
+body{
+    background-image: url(images/default.jpg);
+    background-size: 100%;
+}
+
+#padding{
+    padding-top: 10%;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.4);
+}
+.white{
+    color: rgba(255,255,255,1);
+}
