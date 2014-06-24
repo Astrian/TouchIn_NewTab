@@ -3,7 +3,7 @@
     
     "name": "TouchIn 新标签页",
     "description": "一种新标签页拓展，帮助用户个性化自己的新标签页，便捷访问自己所需要的信息。",
-    "version": "0.1 Alpha",
+    "version": "0.0.0.1",
     
     "permissions": [
                     "https://secure.flickr.com/"
