@@ -1,5 +1,5 @@
-.body{
-    background-image: url(images/2.jpg);
+body{
+    background-image: url(images/4.jpg);
     background-size: 100%;
 }
 
@@ -9,30 +9,32 @@
 .white{
     color: rgba(255,255,255,1);
 }
-#topbar{
+#topbar1{
     background-color: rgba(244,244,244,1);
-    padding-top: 8px;
+    padding-top: 9px;
     height: 40px;
     border-bottom-style: solid;
     border-bottom-color: #e0e0e0;
     border-bottom-width: 1px;
 }
-#topbar1{
-    background-color: rgba(0,0,0,0.5);
-    padding-top: 8px;
+#topbar{
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 9px;
     height: 40px;
-    border-bottom-style: solid;
-    border-bottom-color: #2f2f2f;
-    border-bottom-width: 1px;
 }
-#main{
+#main1{
     padding-top: 30px;
 }
+#function{
+    background-color: rgba(255,255,255,0.8);
+}
 #searchbar{
-    height: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 #function{
-    padding-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .bookmarklist{
     font-size: 18px;
