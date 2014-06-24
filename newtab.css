@@ -1,5 +1,5 @@
 .body{
-    background-image: url(images/default.jpg);
+    background-image: url(images/2.jpg);
     background-size: 100%;
 }
 
@@ -16,4 +16,15 @@
     border-bottom-style: solid;
     border-bottom-color: #e0e0e0;
     border-bottom-width: 1px;
+}
+#topbar1{
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 8px;
+    height: 40px;
+    border-bottom-style: solid;
+    border-bottom-color: #2f2f2f;
+    border-bottom-width: 1px;
+}
+#main{
+    padding-top: 30px;
 }
