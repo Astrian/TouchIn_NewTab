@@ -28,3 +28,16 @@
 #main{
     padding-top: 30px;
 }
+#searchbar{
+    height: 60px;
+}
+#function{
+    padding-top: 70px;
+}
+.bookmarklist{
+    font-size: 18px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    width:100%;
+}

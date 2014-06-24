@@ -37,13 +37,65 @@
                 </div>
         </div>
         
-        <div class="container" id="main">
-            <div id="searchbar" class="col-md-8 col-md-offset-2">
-                <div class="col-md-2"><img src="./images/search-engine-logo/bilibili.png" width=100% /></div>
-                <div class="col-xs-8">
-                    <input type="search" class="form-control input-lg" placeholder="Imput video number (e.g. av929321) or keyword..." />
+        <div class="container">
+            <div id="main">
+                <div id="searchbar" class="col-md-8 col-md-offset-2">
+                    <div class="col-md-2"><div class="dropdown">
+                        <a data-toggle="dropdown" href="#"><img src="./images/search-engine-logo/bilibili.png" width=100% /></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation" class="dropdown-header">Web Search Engine</li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Google</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Yahoo!</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Baidu</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sogou</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">360</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation" class="dropdown-header">Spical</li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Wikipedia</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Rotten Tomatoes</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Twitter</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Douban</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Soku</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Bilibili <span class="pull-right">✓</span></a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="search" class="form-control input-lg" placeholder="Video number (e.g. av929321) or keyword..." />
+                    </div>
+                    <div class="col-md-2"><button type="button" class="btn btn-primary btn-lg">Search</button></div>
                 </div>
-                <div class="col-md-2"><button type="button" class="btn btn-primary btn-lg">Search</button></div>
+                <br />
+                <div id="function">
+                    <div class="col-md-4" id="bookmark">
+                        <h3>Bookmark</h3>
+                        <div class="bookmarklist">
+                            <a href="#"><i class="fa fa-twitter"></i> Twitter</a><br />
+                            <a href="#"><i class="fa fa-facebook"></i> Facebook</a><br />
+                            <a href="#"><i class="fa fa-google-plus"></i> Google+</a><br />
+                            <a href="#"><i class="fa fa-reddit"></i> Reddit</a><br />
+                            <a href="#"><i class="fa fa-wordpress"></i> Wordpress</a><br />
+                        </div>
+                        <a href="#">More...</a>
+                    </div>
+                    <div class="col-md-8">
+                        <div id="mostvisit" style="height:140px;">
+                            <h3>Most Visit</h3>
+                                <img src="./images/websitelogo/sinaweibo.png" width=23% />
+                                <img src="./images/websitelogo/sinaweibo.png" width=23% />
+                                <img src="./images/websitelogo/sinaweibo.png" width=23% />
+                                <img src="./images/websitelogo/sinaweibo.png" width=23% />
+                        </div>
+                        <div id="rss">
+                            <h3>RSS Feed</h3>
+                            <div id="feed-list">
+                                <a href="#"><h4>How to Disappear (almost) Completely: the illusion of privacy<br /><small>Engadget · 16 hours ago</small></h4></a>
+                                <a href="#"><h4>Mila Kunis Interviewer Explains What Went Wrong During Horrifying Q&A<br /><small>Yahoo · 6 hours ago</small></h4></a>
+                                <a href="#"><h4>Hillary Clinton Hasn’t Learned Any of the Lessons of Iraq<br /><small>Slate · 6 hours ago</small></h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
